@@ -24,3 +24,8 @@ And deploy your Lambda on AWS with:
 sls deploy
 ```
 Use `--stage production` to specify production environment.
+
+Remove your Lambda from AWS with:
+```
+sls remove
+```

@@ -1,18 +1,21 @@
 # Serverless Starter with NodeJS & Typescript on AWS
-
-Install the [Serverless](https://serverless.com/) framework globally:
+For a quick start, clone this project:
 ```
-npm install serverless -g
-```
-Once done, you can run:
-```
-serverless install -u https://github.com/pixnlove/aws-nodejs-typescript-serverless
+git clone https://github.com/pixnlove/aws-nodejs-typescript-serverless
 ```
 Install all dependencies with:
 ```
 npm install
 ```
-Try it:
+After, you need to install the [Serverless](https://serverless.com/) framework globally
+```
+npm install serverless -g
+```
+Add your AWS Credentials to Serverless:
+```
+aws configure
+```
+Try to invoke your lambda (`handler.ts`):
 ```
 sls invoke -f hello
 ```

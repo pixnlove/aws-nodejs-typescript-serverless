@@ -1,6 +1,6 @@
-## Serverless Starter with NodeJS & Typescript on AWS
+# Serverless Starter with NodeJS & Typescript on AWS
 
-Install the [Serverless](https://serverless.com/) framework globally
+Install the [Serverless](https://serverless.com/) framework globally:
 ```
 npm install serverless -g
 ```

@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "outDir": "lib",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "sourceMap": true,
+      "target": "es5",
+      "jsx": "react",
+      "moduleResolution": "node",
+      "allowJs": true
+    },
+    "include": ["./**/*.ts"],
+    "exclude": [
+      "node_modules/**/*",
+      ".serverless/**/*",
+      ".webpack/**/*",
+      "_warmup/**/*",
+      ".vscode/**/*"
+    ]
+  }

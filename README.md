@@ -15,13 +15,13 @@ Add your AWS Credentials to Serverless:
 ```
 aws configure
 ```
-Try to invoke your lambda (`handler.ts`):
-```
-sls invoke -f hello
-```
-And deploy your Lambda on AWS with:
+Deploy your Lambda on AWS with:
 ```
 sls deploy
+```
+And try to invoke your lambda (located in `handler.ts`):
+```
+sls invoke -f hello
 ```
 Use `--stage production` to specify production environment.
 
